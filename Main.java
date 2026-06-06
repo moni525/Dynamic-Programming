@@ -4,13 +4,11 @@ public class Main
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-
         int R=sc.nextInt();
         int C=sc.nextInt();
-
         int[][] grid=new int[R][C];
         long[][] dp=new long[R][C];
-
+        //ROW WISE
         for(int row=0;row<R;row++)
         {
             for(int col=0;col<C;col++)
